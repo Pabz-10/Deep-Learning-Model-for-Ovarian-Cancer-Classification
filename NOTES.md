@@ -3,6 +3,6 @@
 
 Student Name: Pabil Adhikari
 Student Name: Abiel Kim
-Student Name: 
+Student Name: Jisoo Im
 Student Name: 
 Student Name: 
