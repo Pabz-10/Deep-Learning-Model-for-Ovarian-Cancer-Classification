@@ -65,21 +65,18 @@ Provide _exact_ versions, test on CSIL or reference workstations.
 git clone $THISREPO
 cd $THISREPO
 conda env create -f requirements.yml
-conda activate amazing
+conda activate CMPT_340_Environment
 ```
 
 <a name="repro"></a>
 ## 3. Reproduction
 Demonstrate how your work can be reproduced, e.g. the results in your report.
 ```bash
-mkdir tmp && cd tmp
-wget https://yourstorageisourbusiness.com/dataset.zip
-unzip dataset.zip
-conda activate amazing
-python evaluate.py --epochs=10 --data=/in/put/dir
+Run src/complete_model.py
+Enter Kaggle Username and Key
 ```
 Data can be found at ...
-Output will be saved in ...
+Output will be saved in output/models
 
 <a name="guide"></a>
 ## 4. Guidance
