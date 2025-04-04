@@ -206,10 +206,10 @@ def main():
     # Confusion Matrix using the best saved model
     confuse_model = model_save_path
     
-    use_dev_model = True # set to true to use the dev model that we trained, set to false to use the best model trained above
+    use_dev_model = False # set to true to use the dev model that we trained, set to false to use the best model trained above
     
     if use_dev_model:
-        model_save_path = os.path.join(models_dir, 'best_model_complete.pth')
+        confuse_model = "./devlopment/models/best_model.pth"
 
     state_dict = torch.load(confuse_model, map_location=device)
     model.load_state_dict(state_dict)
