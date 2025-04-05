@@ -29,7 +29,7 @@ def main():
         data_dir = "./data/"
         os.makedirs(data_dir, exist_ok=True)
 
-    download_images = False  # Set to True if you want to download the dataset
+    download_images = True  # Set to True if you want to download the dataset
     if download_images:
         dataset_url = "https://www.kaggle.com/datasets/darshue/extracted-images"
         od.download(dataset_url, data_dir=data_dir)

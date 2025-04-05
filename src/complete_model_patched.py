@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import seaborn as sns
-import opendatasets as od
+# import opendatasets as od
 from sklearn.metrics import confusion_matrix
 import kagglehub
 import torch.multiprocessing
@@ -35,9 +35,11 @@ def main():
 
     download_images = True  # Set to True if you want to download the dataset
     if download_images:
-        dataset_url = "https://www.kaggle.com/datasets/darshue/extracted-images"
-        od.download(dataset_url, data_dir=data_dir)
-        data_dir = os.path.join(data_dir, 'extracted-images/train/')
+        # dataset_url = "https://www.kaggle.com/datasets/darshue/extracted-images"
+        # od.download(dataset_url, data_dir=data_dir)
+        path = kagglehub.dataset_download("darshue/extracted-images")
+        data_dir = os.path.join(path, 'train')
+        # data_dir = os.path.join(data_dir, 'extracted-images/train/')
         print("Dataset downloaded to:", data_dir)
     else:
         data_dir = os.path.join(data_dir, 'extracted-images/train/')
@@ -58,7 +60,7 @@ def main():
 
     train_test_split = 0.8
     batch_size = 32
-    num_epochs = 5 # for testing purposes set to 5, change to 25 for full training
+    num_epochs = 1 # for testing purposes set to 1, change to 25 for full training
     learning_rate = 0.001
     num_classes = 5
     if is_colab:
