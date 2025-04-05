@@ -53,6 +53,9 @@ cd 2025_1_project_04
 
 <a name="repro"></a>
 ## 3. Reproduction
+
+### Execution via Conda Environment
+
 Run the command below to run the model
 ```bash
 src/complete_model_patched.py
@@ -63,16 +66,28 @@ Data can be found at .../data/train/ if using CUDA or\
 ./extracted-images/train/ if using Colab\
 Output will be saved in output/models
 
-
+### Execution via Manual Dependency Installations using Pip3 Python [not recommended]
 Alternatively, you can run the python file directly without a conda environment
 ```bash
 pip3 install torch torchvision numpy tqdm matplotlib seaborn kagglehub scikit-learn
 cd src
 python complete_model_patched.py
 ```
-However, this approach is not recommended on a CSIL machine due to restricted cache capacity
-The dependencies alone will likely overload the cache. Further, the dataset requires 3.4GB of data.
+However, this approach is not recommended on a CSIL machine due to restricted cache capacity. 
+The dependencies alone will likely overload the cache. Further, the dataset requires an additional 3.4GB of cache space due to the nature of kagglehub's download API.
 
+Why use kagglehub's download API? As of Python 3.13 has deprecated the use of the od module's download API.
+
+### Execution via Manual Dependency Installations using Pip3 Python [recommended]
+
+The best way to replicate our project is to leverage our python notebook.
+The most up-to-date, patched version is located in the ```bash development``` directory.
+Open the file pytorch_model_patched.ipynb in an IDE of your choice (ideally Google Colab).
+
+Run each code block in sequence. Downloading the dataset will likely require you to enter your Kaggle username and key.
+More information can be found here on how to get your Kaggle key: https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md
+
+Once your credentials have been verified, run the remaining code blocks that train the model and output visualization plots.
 
 <a name="guide"></a>
 ## 4. Guidance
