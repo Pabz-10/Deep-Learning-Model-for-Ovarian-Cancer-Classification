@@ -11,8 +11,7 @@ The purpose of this project was create a model that could aid in the early stage
 
 ## Video Demo
 
-TO DO EMBED UPDATED VIDEO AFTER NARDOS EDITS
-
+https://github.com/user-attachments/assets/bc7a5418-799a-4a56-bdb3-2128006ffc87
 
 ## Table of Contents
 1. [Demo](#demo)
@@ -27,14 +26,7 @@ TO DO EMBED UPDATED VIDEO AFTER NARDOS EDITS
 <a name="demo"></a>
 ## 1. Example demo
 
-A minimal example to showcase your work
-
-```python
-from amazing import amazingexample
-imgs = amazingexample.demo()
-for img in imgs:
-    view(img)
-```
+https://github.com/user-attachments/assets/c208ae70-7716-449f-b4e0-6d0756c669ca
 
 ### What to find where
 
