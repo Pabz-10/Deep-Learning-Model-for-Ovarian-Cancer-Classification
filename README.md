@@ -12,13 +12,9 @@ The purpose of this project was create a model that could aid in the early stage
 |-----------|---------------|-------------------------|
 
 
-- Timesheet: Link your timesheet (pinned in your project's Slack channel) where you track per student the time and tasks completed/participated for this project/
-- Slack channel: Link your private Slack project channel.
-- Project report: Link your Overleaf project report document.
+## Video Demo
 
-
-## Video/demo/GIF
-Record a short video (1:40 - 2 minutes maximum) or gif or a simple screen recording or even using PowerPoint with audio or with text, showcasing your work.
+https://github.com/user-attachments/assets/fe205129-2cbc-491b-a232-7e47aac4ecd6
 
 
 ## Table of Contents
