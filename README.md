@@ -45,7 +45,6 @@ repository
 
 <a name="installation"></a>
 
-<<<<<<< HEAD
 ## 2. Prerequisites
 
 We have 1 .ipynb file and 2 python files available for project replication.
@@ -63,11 +62,8 @@ The difference in versions correspond to different API calls download the datase
 
 
 ### Conda Installation [for running ```bash src/complete_model.py ```]
-Copy the commands be low to create a conda enviornemnt and install the dependencies 
-=======
-## 2. Installation
-If you are using conda which is recomended copy the commands be low to create a conda enviornemnt and install the dependencies 
->>>>>>> b65cee6458223f44ed9ad11b941927198697091e
+Copy the commands below to create a conda enviornemnt and install the dependencies 
+
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
