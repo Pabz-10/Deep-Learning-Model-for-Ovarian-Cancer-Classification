@@ -45,11 +45,12 @@ Explain briefly what files are found where
 
 ```bash
 repository
-├── src                          ## source code of the package itself
-├── scripts                      ## scripts, if needed
-├── docs                         ## If needed, documentation   
+├── development                  ## Contains jupyter Notebooks code of previous models
+    ├── models                   ## Stores best model
+├── output                       ## Stores confusion matrix andmodel plots for training loss and validation accuracy 
+├── src                          ## Contains completed model 
 ├── README.md                    ## You are here
-├── requirements.yml             ## If you use conda
+├── requirements.yml             ## Used to install required packages/dependencies
 ```
 
 <a name="installation"></a>
@@ -74,8 +75,8 @@ Run src/complete_model.py
 ## You will be prompted to enter your Kaggle Username and Key, which is required to download the dataset
 ## Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 ```
-Data can be found at ...
-
+Data can be found at .../data/train/ if using CUDA or 
+./extracted-images/train/ if using Colab
 Output will be saved in output/models
 
 <a name="guide"></a>
