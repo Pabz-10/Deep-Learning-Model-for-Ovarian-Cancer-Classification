@@ -14,7 +14,7 @@ The purpose of this project was create a model that could aid in the early stage
 
 ## Video Demo
 
-https://github.com/user-attachments/assets/fe205129-2cbc-491b-a232-7e47aac4ecd6
+TO DO EMBED UPDATED VIDEO AFTER NARDOS EDITS
 
 
 ## Table of Contents
@@ -60,8 +60,8 @@ Provide sufficient instructions to reproduce and install your project.
 Provide _exact_ versions, test on CSIL or reference workstations.
 
 ```bash
-git clone $THISREPO
-cd $THISREPO
+git clone https://github.com/sfu-cmpt340/2025_1_project_04
+cd 2025_1_project_04
 conda env create -f requirements.yml
 conda activate CMPT_340_Environment
 ```
@@ -74,6 +74,7 @@ Run src/complete_model.py
 Enter Kaggle Username and Key
 ```
 Data can be found at ...
+Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 Output will be saved in output/models
 
 <a name="guide"></a>
