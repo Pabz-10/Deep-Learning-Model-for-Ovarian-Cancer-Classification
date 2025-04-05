@@ -88,7 +88,8 @@ More information for accessing the Conda environment on a CSIL machine can be fo
 
 Run the command below to run the model
 ```bash
-src/complete_model.py
+cd src
+python complete_model_patched.py
 ## You will be prompted to enter your Kaggle Username and Key, which is required to download the dataset
 ## Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 ```
