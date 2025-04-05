@@ -1,12 +1,14 @@
-# SFU CMPT 340 Project Template -- Replace with project title
+# Deep Learning for Ovarian Cancer Subtype Classification (OCSC-NET)
 This repository is a template for your CMPT 340 course project.
 Replace the title with your project title, and **add a snappy acronym that people remember (mnemonic)**.
 
-Add a 1-2 line summary of your project here.
+This repository contains our final deep learning model for classifying Ovarian Cancer Subtypes using histophathological images.
+OCSC-Net stands for Ovarian Cancer Subtype Classification Network
+The purpose of this project was create a model that could aid in the early stage diagnosis of 5 different types of Ovarian Cancer 
 
 ## Important Links
 
-| [Timesheet](https://google.com) | [Slack channel](https://google.com) | [Project report](https://google.com) |
+| [Timesheet](https://1sfu-my.sharepoint.com/:x:/g/personal/hamarneh_sfu_ca/EffuUXAYi5BOgc6-eyp2eu8ByngPtJkDsogzcFgGPU8YXQ?e=gjgPYn) | [Slack channel](https://app.slack.com/client/T08645XD55G/C08778BPW9H) | [Project report](https://www.overleaf.com/project/677238aaa7c20ff32d5330d7) |
 |-----------|---------------|-------------------------|
 
 
