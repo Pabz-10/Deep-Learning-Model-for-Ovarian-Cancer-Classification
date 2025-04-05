@@ -71,10 +71,11 @@ conda activate CMPT_340_Environment
 Demonstrate how your work can be reproduced, e.g. the results in your report.
 ```bash
 Run src/complete_model.py
-Enter Kaggle Username and Key
+## Enter Kaggle Username and Key
+## Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 ```
 Data can be found at ...
-Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
+
 Output will be saved in output/models
 
 <a name="guide"></a>
