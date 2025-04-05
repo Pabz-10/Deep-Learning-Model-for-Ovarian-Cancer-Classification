@@ -49,7 +49,6 @@ Copy the commands be low to create a conda enviornemnt and install the dependenc
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
-pip3 install torch torchvision numpy tqdm matplotlib seaborn kagglehub scikit-learn
 ```
 
 <a name="repro"></a>
@@ -63,6 +62,17 @@ src/complete_model_patched.py
 Data can be found at .../data/train/ if using CUDA or\
 ./extracted-images/train/ if using Colab\
 Output will be saved in output/models
+
+
+Alternatively, you can run the python file directly without a conda environment
+```bash
+pip3 install torch torchvision numpy tqdm matplotlib seaborn kagglehub scikit-learn
+cd src
+python complete_model_patched.py
+```
+However, this approach is not recommended on a CSIL machine due to restricted cache capacity
+The dependencies alone will likely overload the cache. Further, the dataset requires 3.4GB of data.
+
 
 <a name="guide"></a>
 ## 4. Guidance
