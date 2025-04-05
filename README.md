@@ -12,7 +12,8 @@ The purpose of this project was create a model that could aid in the early stage
 ## Video Demo 
 This is our full video demo
 
-https://github.com/user-attachments/assets/9a15ef73-0a0d-47ba-9b22-be72afc9196f
+https://github.com/user-attachments/assets/dcb5fe41-1ac0-490e-8ed3-200479497a40
+
 
 ## Table of Contents
 1. [Demo](#demo)
@@ -26,7 +27,7 @@ https://github.com/user-attachments/assets/9a15ef73-0a0d-47ba-9b22-be72afc9196f
 
 <a name="demo"></a>
 ## 1. Example demo
-This a demo of our model running 
+
 https://github.com/user-attachments/assets/c208ae70-7716-449f-b4e0-6d0756c669ca
 
 ### What to find where
@@ -45,12 +46,11 @@ repository
 <a name="installation"></a>
 
 ## 2. Installation
-Copy the commands be low to create a conda enviornemnt and install the dependencies 
+If you are using conda which is recomended copy the commands be low to create a conda enviornemnt and install the dependencies 
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
 conda env create -f requirements.yml
-conda activate amazing
 conda activate CMPT_340_Environment
 ```
 
