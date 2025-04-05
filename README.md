@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/9a15ef73-0a0d-47ba-9b22-be72afc9196f
 <a name="demo"></a>
 ## 1. Example demo
 This a demo of our model running 
-[![Demo Gif]](https://github.com/user-attachments/assets/c208ae70-7716-449f-b4e0-6d0756c669ca)
+https://github.com/user-attachments/assets/c208ae70-7716-449f-b4e0-6d0756c669ca
 
 ### What to find where
 Overview of the folder directory
@@ -49,6 +49,9 @@ Copy the commands be low to create a conda enviornemnt and install the dependenc
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
+conda env create -f requirements.yml
+conda activate amazing
+conda activate CMPT_340_Environment
 ```
 
 <a name="repro"></a>
