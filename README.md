@@ -49,21 +49,20 @@ Copy the commands be low to create a conda enviornemnt and install the dependenc
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
-conda env create -f requirements.yml
-conda activate CMPT_340_Environment
+pip3 install torch torchvision numpy tqdm matplotlib seaborn kagglehub scikit-learn
 ```
 
 <a name="repro"></a>
 ## 3. Reproduction
 Run the command below to run the model
 ```bash
-src/complete_model.py
+src/complete_model_patched.py
 ## You will be prompted to enter your Kaggle Username and Key, which is required to download the dataset
 ## Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 ```
 Data can be found at .../data/train/ if using CUDA or\
 ./extracted-images/train/ if using Colab\
-Output will be saved in output/models\
+Output will be saved in output/models
 
 <a name="guide"></a>
 ## 4. Guidance
