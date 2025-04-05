@@ -53,7 +53,7 @@ repository
 <a name="installation"></a>
 
 ## 2. Installation
-Copyy the commands be low to create a conda enviornemnt and install the dependencies 
+Copy the commands be low to create a conda enviornemnt and install the dependencies 
 ```bash
 git clone https://github.com/sfu-cmpt340/2025_1_project_04
 cd 2025_1_project_04
@@ -63,16 +63,15 @@ conda activate CMPT_340_Environment
 
 <a name="repro"></a>
 ## 3. Reproduction
-
+Run the command below to run the model
 ```bash
-## Run the command below to run the model
 src/complete_model.py
 ## You will be prompted to enter your Kaggle Username and Key, which is required to download the dataset
 ## Key can be found in the settings tab of Kaggle (look under API and generate a new token, this token is your password)
 ```
-Data can be found at .../data/train/ if using CUDA or 
-./extracted-images/train/ if using Colab
-Output will be saved in output/models
+Data can be found at .../data/train/ if using CUDA or\
+./extracted-images/train/ if using Colab\
+Output will be saved in output/models\
 
 <a name="guide"></a>
 ## 4. Guidance
