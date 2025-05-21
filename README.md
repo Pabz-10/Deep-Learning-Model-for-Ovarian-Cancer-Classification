@@ -3,10 +3,9 @@ This repository contains our Group 4s deep learning model for classifying Ovaria
 OCSC-Net stands for Ovarian Cancer Subtype Classification Network
 The purpose of this project was create a model that could aid in the early stage diagnosis of 5 different types of Ovarian Cancer 
 
-## Important Links
+## Project Report
 
-| [Timesheet](https://1sfu-my.sharepoint.com/:x:/g/personal/hamarneh_sfu_ca/EffuUXAYi5BOgc6-eyp2eu8ByngPtJkDsogzcFgGPU8YXQ?e=gjgPYn) | [Slack channel](https://app.slack.com/client/T08645XD55G/C08778BPW9H) | [Project report](https://www.overleaf.com/project/677238aaa7c20ff32d5330d7) |
-|-----------|---------------|-------------------------|
+You can view the report [here](Project_Report.pdf).
 
 
 ## Video Demo 
