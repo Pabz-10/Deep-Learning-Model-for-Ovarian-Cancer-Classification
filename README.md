@@ -5,7 +5,7 @@ The purpose of this project was create a model that could aid in the early stage
 
 ## Project Report
 
-You can view the report [here](Project_Report.pdf).
+You can view the report [here](Project%20Report.pdf).
 
 
 ## Video Demo 
