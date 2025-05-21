@@ -9,10 +9,7 @@ You can view the report [here](Project%20Report.pdf).
 
 
 ## Video Demo 
-This is our full video demo
-
 https://github.com/user-attachments/assets/dcb5fe41-1ac0-490e-8ed3-200479497a40
-
 
 ## Table of Contents
 1. [Demo](#demo)
