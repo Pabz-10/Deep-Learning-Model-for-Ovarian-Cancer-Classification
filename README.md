@@ -18,9 +18,6 @@ https://github.com/user-attachments/assets/dcb5fe41-1ac0-490e-8ed3-200479497a40
 
 3. [Reproducing this project](#repro)
 
-4. [Guidance](#guide)
-
-
 <a name="demo"></a>
 ## 1. Example demo
 
@@ -116,17 +113,3 @@ Run each code block in sequence. Downloading the dataset will likely require you
 More information can be found here on how to get your Kaggle key: https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md
 
 Once your credentials have been verified, run the remaining code blocks that train the model and output visualization plots.
-
-<a name="guide"></a>
-## 4. Guidance
-
-- Use [git](https://git-scm.com/book/en/v2)
-    - Do NOT use history re-editing (rebase)
-    - Commit messages should be informative:
-        - No: 'this should fix it', 'bump' commit messages
-        - Yes: 'Resolve invalid API call in updating X'
-    - Do NOT include IDE folders (.idea), or hidden files. Update your .gitignore where needed.
-    - Do NOT use the repository to upload data
-- Use [VSCode](https://code.visualstudio.com/) or a similarly powerful IDE
-- Use [Copilot for free](https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal)
-- Sign up for [GitHub Education](https://education.github.com/) 
