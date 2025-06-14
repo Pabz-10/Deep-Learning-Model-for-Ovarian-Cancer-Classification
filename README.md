@@ -1,5 +1,5 @@
 # Deep Learning for Ovarian Cancer Subtype Classification (OCSC-NET)
-This repository contains our Group 4s deep learning model for classifying Ovarian Cancer Subtypes using histophathological images.
+This repository contains our Groups deep learning model for classifying Ovarian Cancer Subtypes using histophathological images.
 OCSC-Net stands for Ovarian Cancer Subtype Classification Network
 The purpose of this project was create a model that could aid in the early stage diagnosis of 5 different types of Ovarian Cancer 
 
